@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backshadow {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backshadow .custom-modal {
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.custom-modal h2 {
+    margin-top: 8px;
+    margin-left: 9rem;
+}
+
+.custom-modal label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.custom-modal input,
+.custom-modal textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.custom-modal button {
+    background-color: #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.custom-modal button[type="submit"] {
+    background-color: #5b9bd2;
+}
+
+.custom-modal button[type="button"] {
+    background-color: #ccc;
+    color: #4b4b4b;
+}
+
+.custom-modal img {
+    margin-top: 10px;
+    margin-left: 12rem;
+    width: 4rem;
+    height: auto;
+}
+
+.btn-event {
+    background: #b1d5f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    color: #444444;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+}

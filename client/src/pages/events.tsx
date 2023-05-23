@@ -1,7 +1,7 @@
 import {useQuery} from '@apollo/client';
 import React, {useContext, useState} from 'react';
 import GET_ALL_EVENTS from '../queries/GetAllEvents';
-import './Events.css';
+import './events.css';
 import AuthContext from "../context/authContext";
 import CreateEventModal from "../components/CreateEventModal";
 import BookEvent from "../components/BookEvent";

@@ -39,7 +39,7 @@ function CancelBooking(props: any) {
             setTimeout(() => {
                 setIsModalOpen(false);
                 setMessage(null);
-            }, 3000);
+            }, 2500);
         }
         catch (error) {
             console.log(error)
@@ -57,7 +57,7 @@ function CancelBooking(props: any) {
         onCompleted: () => {
             setTimeout(() => {
                 refetch();
-            }, 3000);
+            }, 2500);
         }
     });
 

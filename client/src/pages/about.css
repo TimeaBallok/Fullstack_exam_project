@@ -1,12 +1,23 @@
+.about-header {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    justify-content: space-between;
+    width: 85%;
+}
+
 .about {
     margin-left: 100px;
+    margin-top: 20px;
 }
 .about p {
-    margin-bottom: 10px;
+    padding: 7px;
+    margin-bottom: 15px;
     font-size: large;
 }
 
 h1 {
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext} from 'react';
 import AuthContext from '../context/authContext';
 import {useQuery} from "@apollo/client";
 import GET_BOOKINGS from "../queries/GetBookings";
